@@ -1,0 +1,50 @@
+.portfolio {
+    padding: 2rem 0.5rem;
+}
+
+.portfolio h1 {
+    margin: 0 0 2rem 0;
+}
+
+.portfolio .content .projects h3{
+    margin: 0 0 1rem 0;
+}
+
+.portfolio .content .projects .menu ul {
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    display: flex;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: 500ms;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 667px){ 
+    .portfolio {
+        padding: 2rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 999px){ 
+    .portfolio {
+        padding: 2rem 3rem;
+    }
+}
+
+
+@media only screen and (min-width: 1000px){ 
+    .portfolio {
+        padding: 3rem 0 0 0;
+        max-width: 1000px;
+        margin: 0 auto 4rem auto;
+    }
+} 

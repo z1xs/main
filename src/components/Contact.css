@@ -1,0 +1,69 @@
+.about .contact {
+    word-wrap: break-word;
+    font-size: 0.85em;
+}
+
+.about .contact .item{
+    margin: 0 0 1rem 0;
+}
+
+.about .contact .item i{
+    margin: 0 0.5rem 0 0;
+}
+
+
+footer .contact {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    word-wrap: break-word;
+}
+
+footer .contact .item {
+    margin: 0.5rem 0rem 0 0;
+}
+
+footer .contact .item i{
+    margin: 0 0.5rem 0 0;
+}
+
+footer .contact .item a{
+    color: white;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 667px){ 
+    footer .contact {
+        justify-content: flex-end;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .contact .item {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 999px){ 
+    footer .contact {
+        justify-content: flex-end;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    footer .contact {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1000px){ 
+
+    footer .contact {
+        padding: 0;
+        display: flex;
+
+    }
+
+    footer .contact .item{
+        margin: 0 1.5rem 0 0;
+    }
+} 

@@ -1,0 +1,50 @@
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+
+.about h1 {
+    margin: 0 0 1rem 0;
+}
+
+.about p {
+    line-height: 1.4rem;
+    margin: 0 0 2.5rem 0;
+}
+
+.about p span {
+    color: var(--primary-color);
+}
+
+.about .references, .about .contact {
+    margin: 0 0 2rem 0;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 667px){ 
+    .about {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 999px){ 
+    .about {
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px){ 
+    .about {
+        padding: 0;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .about p {
+        width: 70%;
+    }
+} 

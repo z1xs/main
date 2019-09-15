@@ -1,0 +1,84 @@
+.about .references {
+    font-size: 0.85em;
+}
+
+.about .references .item{
+    margin: 0 0 1rem 0;
+}
+
+.about .references .item i{
+    margin: 0 0.5rem 0 0;
+}
+
+.about .references .item a{
+    color: white;
+}
+
+
+
+footer .references {
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .references .item {
+    margin: 0.5rem 0rem 0 0;
+}
+
+footer .references .item i{
+    margin: 0 0.5rem 0 0;
+}
+
+footer .references .item a{
+    color: white;
+}
+
+
+.references .item a:hover{
+    color: var(--primary-color);
+}
+
+@media only screen and (min-width: 480px) and (max-width: 667px){ 
+    footer .references {
+        align-items: flex-end;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .references .item {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 999px){ 
+    footer .references {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        margin: 0;
+    }
+    
+    footer .references .item {
+        margin: 0.5rem 0 0 1rem;
+    }
+}
+
+@media only screen and (min-width: 1000px){ 
+    footer .references {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .references {
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer .references .item {
+        margin: 0 1.5rem 0 0;
+    }
+} 

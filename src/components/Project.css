@@ -1,0 +1,97 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+}
+
+.app .img-refs{
+    order: 2;
+}
+
+.app .desc{
+    order: 1;
+}
+
+.app .desc .content{
+    line-height: 1.4rem;
+}
+
+.app h3 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.app .image img{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.app .image, .app .frontend h4, .backend h4{
+    margin: 0 0 0.5rem 0;
+}
+
+.app .content, .app .frontend, .backend {
+    margin: 0 0 1rem 0;
+}
+
+.app .frontend p, .app .backend p{
+    line-height: 1.25rem;
+}
+
+.app .frontend p small, .app .backend p small{
+    margin: 0 1rem 0 0;
+}
+
+.app .references {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app .references a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 49%;
+    height: 2rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.app .references a:hover{
+    color: white;
+    background-color: black;
+}
+
+
+@media only screen and (min-width: 800px){ 
+    .app {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app .img-refs{
+        order: 1;
+        width: 27%;
+        margin: 0 1rem 0 0;
+    }
+    
+    .app .desc{
+        order: 2;
+        width: 73%;
+    }
+
+    .app .desc h3{
+        margin: 0 0 0.5rem 0;
+    }
+}
+
+@media only screen and (min-width: 1000px){ 
+    .app .references {
+        margin: 0;
+        
+    }
+}
